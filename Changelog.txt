@@ -1,0 +1,5 @@
+========================================================================
+    Changelog UV Exposure Box
+========================================================================
+V0.1
+Added possibility to run the stepper motor clockwise and counter clockwise.
