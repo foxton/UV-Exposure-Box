@@ -1,7 +1,7 @@
 #ifndef _VSARDUINO_H_
 #define _VSARDUINO_H_
-//Board = Arduino Micro
-#define __AVR_ATmega32U4__
+//Board = Arduino Uno
+#define __AVR_ATmega328P__
 #define ARDUINO 105
 #define __AVR__
 #define F_CPU 16000000L
@@ -28,8 +28,10 @@ extern "C" void __cxa_pure_virtual() {;}
 
 //
 //
+void CRotation();
+void CCRotation();
 
-#include "C:\Program Files (x86)\Arduino\hardware\arduino\variants\micro\pins_arduino.h" 
+#include "C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard\pins_arduino.h" 
 #include "C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\arduino.h"
 #include "G:\Arduino Projects\UV_Exposure_Box\UV_Exposure_Box.ino"
 #endif
