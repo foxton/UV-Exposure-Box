@@ -1,0 +1,12 @@
+Future Changes
+--------------
+Control the stepper motor with buttons
+
+Add an LCD display to the circuit
+
+Microswitches that controls when the motor reaches the furthest
+position.
+
+Add UV-LEDs to the Scanner
+
+Safety circuit that prevents UV light when lid is open
