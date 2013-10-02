@@ -6,7 +6,7 @@ int motorPin1 = 8; //Brown
 int motorPin2 = 9; //Yellow
 int motorPin3 = 10;//Black
 int motorPin4 = 11;//Orange
-int delayTime = 25;
+int delayTime = 10;
 
 void setup() 
 {
@@ -16,7 +16,13 @@ void setup()
   pinMode(motorPin4, OUTPUT);
 }
 
-void loop() {
+void loop() 
+{
+CCRotation();
+}
+
+void CRotation()
+{
   digitalWrite(motorPin1, HIGH);
   digitalWrite(motorPin2, LOW);
   digitalWrite(motorPin3, LOW);
@@ -36,5 +42,28 @@ void loop() {
   digitalWrite(motorPin2, LOW);
   digitalWrite(motorPin3, LOW);
   digitalWrite(motorPin4, HIGH);
+  delay(delayTime);
+}
+void CCRotation()
+{
+  digitalWrite(motorPin1, LOW);
+  digitalWrite(motorPin2, LOW);
+  digitalWrite(motorPin3, LOW);
+  digitalWrite(motorPin4, HIGH);
+  delay(delayTime);
+  digitalWrite(motorPin1, LOW);
+  digitalWrite(motorPin2, LOW);
+  digitalWrite(motorPin3, HIGH);
+  digitalWrite(motorPin4, LOW);
+  delay(delayTime);
+  digitalWrite(motorPin1, LOW);
+  digitalWrite(motorPin2, HIGH);
+  digitalWrite(motorPin3, LOW);
+  digitalWrite(motorPin4, LOW);
+  delay(delayTime);
+  digitalWrite(motorPin1, HIGH);
+  digitalWrite(motorPin2, LOW);
+  digitalWrite(motorPin3, LOW);
+  digitalWrite(motorPin4, LOW);
   delay(delayTime);
 }
