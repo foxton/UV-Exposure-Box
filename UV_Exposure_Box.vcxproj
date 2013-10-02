@@ -66,6 +66,7 @@
   <ItemGroup>
     <None Include="Changelog.txt" />
     <None Include="README.txt" />
+    <None Include="Todo.txt" />
     <None Include="UV_Exposure_Box.ino">
       <FileType>CppCode</FileType>
     </None>

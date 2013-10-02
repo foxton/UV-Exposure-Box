@@ -22,6 +22,9 @@
     <None Include="Changelog.txt">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="Todo.txt">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Visual Micro\.UV_Exposure_Box.vsarduino.h">
