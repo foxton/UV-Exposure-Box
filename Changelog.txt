@@ -3,3 +3,7 @@
 ========================================================================
 V0.1
 Added possibility to run the stepper motor clockwise and counter clockwise.
+
+V0.15
+The rotation of the stepper motor can now be controlled with a micro switch.
+Added LED for indicating the state of the Switch. 
