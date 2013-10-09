@@ -1,12 +1,18 @@
 Future Changes
 --------------
+V0.20
 Control the stepper motor with buttons
-
-Add an LCD display to the circuit
 
 Microswitches that controls when the motor reaches the furthest
 position.
 
-Add UV-LEDs to the Scanner
+Startup check (Check location of moving arm)
+If not in start location, move it there.
+
+Later Version
+--------------
+Add an LCD display to the circuit
 
 Safety circuit that prevents UV light when lid is open
+
+Add UV-LEDs to the Scanner
